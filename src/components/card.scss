@@ -1,0 +1,20 @@
+.card{
+	padding: 10px;
+	height: auto;
+	background-color: rgb(202, 203, 208);
+	overflow: hidden;
+}
+.card-img{
+	overflow: hidden;
+}
+.card-img img{
+	transition: .3s;
+	overflow: hidden;
+	width: 230px;
+	height: 330px;
+	border-radius: 50px;
+}
+.card-img:hover img{
+	cursor: pointer;
+	transform: scale(1.05);
+}
